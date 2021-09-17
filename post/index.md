@@ -1,7 +1,8 @@
 ---
 title: "POST HOME"
 description: "BLAH"
-permalink: "post/yo"
+permalink: "/yo/"
+layout: "default"
 ---
 
 # Index Post
