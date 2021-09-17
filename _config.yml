@@ -8,12 +8,11 @@ description: "HOME..."
 
 
 markdown: kramdown
-# highlighter: rouge
-# kramdown:
-#  input: GFM
-#   syntax_highlighter_opts:
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
 #     default_lang: html
-#     css_class: 'highlight'
+    css_class: 'language-'
 #     span:
 #       line_numbers: false
 #     block:
