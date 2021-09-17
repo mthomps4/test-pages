@@ -8,7 +8,7 @@ adsf
 
 ```elixir
 defmodule Math do
-  def thing(%{asdf: 2}) do
+  def double(%{asdf: 2}) do
     Enum.map([1,2,3], fn (x) -> x * 2 end)
   end
 end
@@ -21,6 +21,7 @@ end
       <div>
         <p> { url } </p> 
       </div>
+    )
   }
 ```
 
@@ -49,8 +50,6 @@ type Species {
 ```
 
 ```ruby
-  
-
 def show
   puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
   @widget = Widget(params[:id])
@@ -59,6 +58,4 @@ def show
     format.json { render json: @widget }
   end
 end
-
-
 ```
