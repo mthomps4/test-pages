@@ -1,3 +1,4 @@
 title: "TEST HOME" 
 description: "HOME..." 
 layout: default
+highlighter: rouge
