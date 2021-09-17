@@ -1,5 +1,4 @@
 ---
-layout: null
 title: GraphQL Test
 description: asdfasdfasdf
 permalink: graphql
