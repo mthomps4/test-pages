@@ -1,5 +1,5 @@
 title: "TEST HOME" 
 description: "HOME..." 
 layout: default
-markdown: kramdown
-kramdown: rouge
+kramdown:
+  syntax_highlighter: rouge
