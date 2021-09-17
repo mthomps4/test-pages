@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-<!--     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/rouge.css?v=' | append: site.github.build_revision | relative_url }}"> 
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/prism.css?v=' | append: site.github.build_revision | relative_url }}"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-tomorrow.min.css" integrity="sha512-vswe+cgvic/XBoF1OcM/TeJ2FW0OofqAVdCZiEYkd6dwGXthvkSFWOoGGJgS2CW70VK5dQM5Oh+7ne47s74VTg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/rouge.css?v=' | append: site.github.build_revision | relative_url }}"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/prism.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-tomorrow.min.css" integrity="sha512-vswe+cgvic/XBoF1OcM/TeJ2FW0OofqAVdCZiEYkd6dwGXthvkSFWOoGGJgS2CW70VK5dQM5Oh+7ne47s74VTg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     
     {% seo %}
   </head>
@@ -34,8 +34,9 @@
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
       {% endif %}
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-elixir.min.js" integrity="sha512-XdPyCY48VvRU56okVLAGO3+XERM421vhpQXlasbG2FBWL8nqgEkeprNfSG7V70rM6xPE6DQ0DEvLCdXOyngdYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- <script src="{{ "/assets/js/prism.js" | prepend: site.baseurl }}"></script>  --> 
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-elixir.min.js" integrity="sha512-XdPyCY48VvRU56okVLAGO3+XERM421vhpQXlasbG2FBWL8nqgEkeprNfSG7V70rM6xPE6DQ0DEvLCdXOyngdYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="{{ "/assets/js/prism.js" | prepend: site.baseurl }}"></script>   -->
+    <script src="{{ base.url | prepend: site.url }}/assets/js/prism.js"></script>
 </body>
 </html>
