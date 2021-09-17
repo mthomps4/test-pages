@@ -6,7 +6,7 @@ description: "BLAH"
 # Index Post
 adsf
 
-```erlang
+```elixir
 defmodule Math do
   def thing(%{asdf: 2}) do
     Enum.map([1,2,3], fn (x) -> x * 2 end)
