@@ -16,8 +16,8 @@ kramdown:
     block:
       line_numbers: false
 
-plugins:
-  - jekyll-favicon
-
 favicon: 
   source: favicon.png
+
+plugins:
+  - jekyll-favicon
