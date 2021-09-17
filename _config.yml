@@ -1,6 +1,20 @@
 title: "TEST HOME" 
 description: "HOME..." 
+# highlighter: rouge
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
+
+
+
+markdown: kramdown
 highlighter: rouge
 kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
