@@ -2,7 +2,7 @@
 title: "POST HOME"
 description: "BLAH"
 permalink: "/yo/"
-layout: "default"
+layout: null
 ---
 
 # Index Post
