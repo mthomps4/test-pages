@@ -1,6 +1,8 @@
 .boom {
   backgroundColor: '#000';
-  color: 'red';
+  color: '#F00';
+  margin: 20rem;
+  padding: 10rem;
   height: 500px;
   width: 500px;
 }
