@@ -1,3 +1,6 @@
 title: "TEST HOME" 
 description: "HOME..." 
-theme: jekyll-theme-slate
+highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
