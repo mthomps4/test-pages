@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-<!--     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/rouge.css?v=' | append: site.github.build_revision | relative_url }}"> -->
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/prism.css?v=' | append: site.github.build_revision | relative_url }}">
+<!--     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/rouge.css?v=' | append: site.github.build_revision | relative_url }}"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/prism.css?v=' | append: site.github.build_revision | relative_url }}"> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-coy.min.css" integrity="sha512-CKzEMG9cS0+lcH4wtn/UnxnmxkaTFrviChikDEk1MAWICCSN59sDWIF0Q5oDgdG9lxVrvbENSV1FtjLiBnMx7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     
     {% seo %}
@@ -34,6 +36,9 @@
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
       {% endif %}
     </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" type="text/js" />
+
     <!-- <script src="{{ "/assets/js/prism.js" | prepend: site.baseurl }}"></script>  --> 
 </body>
 </html>
