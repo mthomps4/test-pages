@@ -49,30 +49,16 @@ type Species {
 ```
 
 ```ruby
-    # Our Lion Class Inherits All the stuff from our Animal Class
-    class Animal
-      attr_accessor :color, :name
-      def initialize ( name, color )
-        @name = name
-        @color = color
-      end
-    end
-     
-    class Lion < Animal		# Inherit by using < Animal 
-      def speak
-        return "RAWR!"
-      end
-    end
-     
-    #  Instantiate our class
-    lion = Lion.new( "lion", "golden" )
-     
-    # Inspect
-    puts lion.inspect
-     
-    # Speak
-    puts lion.speak
-     
-    # Color inherited from Animal class!
-    puts lion.color
+  
+
+def show
+  puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+
+
 ```
