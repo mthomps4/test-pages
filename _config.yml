@@ -7,12 +7,12 @@ description: "HOME..."
 
 
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    default_lang: html
-    css_class: 'language-'
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#  syntax_highlighter_opts:
+#    default_lang: html
+#    css_class: 'language-'
 #     span:
 #       line_numbers: false
 #     block:
