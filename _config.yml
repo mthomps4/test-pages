@@ -1,5 +1,7 @@
 title: "TEST HOME" 
 description: "HOME..." 
 layout: default
-highlighter: rouge
-markdown: GFM
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
