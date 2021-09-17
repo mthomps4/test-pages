@@ -6,7 +6,7 @@ description: "HOME..."
 #   syntax_highlighter: rouge
 
 
-
+base_url: https://mthomps4.github.io/test-pages/
 markdown: kramdown
 kramdown:
   input: GFM
