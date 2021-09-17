@@ -1,1 +1,33 @@
-asdf
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    {% seo %}
+  </head>
+
+  <body class="container m-auto">
+
+    <!-- HEADER -->
+    <header class="bg-gray-900 text-white px-5 py-10">
+      <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="bg-gray-100">
+      {{ content }}
+    </main>
+
+    <!-- FOOTER  -->
+
+    <footer class="bg-gray-900 text-white font-bold">
+      {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+    </footer>
+  </body>
+</html>
